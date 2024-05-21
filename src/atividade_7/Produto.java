@@ -41,6 +41,22 @@ public class Produto {
     public int getQuantidadeEmEstoque(){
         return quantidadeEmEstoque;
     }
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public void setQuantidadeEmEstoque(int quantidadeEmEstoque) {
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
+    }
+
     public void adicionarEstoque(int quantidade){
         quantidadeEmEstoque += quantidade;
     }
